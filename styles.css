@@ -46,9 +46,28 @@ h1 {
 	background-color: #3B3738;
 }
 
-.panel-footer img {
-	border: none;
-	border-radius: 50%;
+#lnkdn {
+	background-image: url(images/linkedin.png);
+}
+
+#lnkdn:hover {
+	background-image: url(images/colorin.png);
+}
+
+#fb {
+	background-image: url(images/fb.png);
+}
+
+#fb:hover {
+	background-image: url(images/colorfb.png);
+}
+
+#gh {
+	background-image: url(images/github.png);
+}
+
+#gh:hover {
+	background-image: url(images/colorgh.png);
 }
 
 @font-face {
