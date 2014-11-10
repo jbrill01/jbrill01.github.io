@@ -50,8 +50,3 @@ h1 {
 	border: none;
 	border-radius: 50%;
 }
-
-@font-face {
-	font-family: lintel;
-	src: url('lintel.otf');
-}
