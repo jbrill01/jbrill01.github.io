@@ -111,14 +111,14 @@ nav {
 /*Transition Property*/
 .box, .box p, .box:hover, .box:hover > p {
 	-webkit-transition: opacity .5s ease;
-	-o-tranition: opacity .5s ease;
+	-o-transition: opacity .5s ease;
 	transition: opacity .5s ease;
 	-moz-transition: opacity .5s ease;
 }
 
 #gh, #gh:hover, #fb, #fb:hover, #lnkdn, #lnkdn:hover {
 	-webkit-transition: background-image .3s ease;
-	-o-tranition: background-image .3s ease;
+	-o-transition: background-image .3s ease;
 	transition: background-image .3s ease;	
 	-moz-transition: background-image .3s ease;
 }
