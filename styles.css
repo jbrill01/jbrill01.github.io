@@ -46,6 +46,10 @@ h1 {
 	background-color: #3B3738;
 }
 
+#to-top {
+	margin-top: -70px;
+}
+
 #lnkdn {
 	background-image: url(images/linkedin.png);
 }
