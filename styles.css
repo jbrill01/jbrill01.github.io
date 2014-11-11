@@ -1,3 +1,10 @@
+/*Fonts*/
+@font-face {
+	font-family: lintel;
+	src: url('fonts/lintel.otf');
+}
+
+/*General Things*/
 body {
 	font-family: lintel;
 	background: #FDF3E7;
@@ -6,19 +13,16 @@ body {
 	color: #3B3738;
 }
 
+h1 {
+	font-size: 60px;
+	padding: 0px;
+}
+
 nav {
 	font-size: 20px;
 }
 
-.navbar-brand:hover {
-  color: #3B3738;
-}
-
-#JBrillz, #Portfolio {
-	padding-top: 125px;
-	padding-bottom: 125px;
-}
-
+/*Classes*/
 .headshot {
 	text-align: center;
 	background-color: #3B3738;
@@ -37,13 +41,18 @@ nav {
 	padding-top: 0px;
 }
 
-h1 {
-	font-size: 60px;
-	padding: 0px;
+.navbar-brand:hover {
+  color: #3B3738;
 }
 
 .panel-footer {
 	background-color: #3B3738;
+}
+
+/*IDs*/
+#JBrillz, #Portfolio {
+	padding-top: 125px;
+	padding-bottom: 125px;
 }
 
 #to-top {
@@ -74,7 +83,42 @@ h1 {
 	background-image: url(images/colorgh.png);
 }
 
-@font-face {
-	font-family: lintel;
-	src: url('lintel.otf');
+.box {
+	height: 328px;
+	width: 328px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(images/jcc.png);
+	font-size: 100px;
+	opacity: 1;
+}
+
+.box p {
+	opacity: 0;
+	padding-top: 115px;
+	color: #FDF3E7;
+}
+
+.box:hover {
+	opacity: .5;
+	cursor: pointer;
+}
+
+.box:hover > p {
+	opacity: 1;
+}
+
+/*Transition Property*/
+.box, .box p, .box:hover, .box:hover > p {
+	-webkit-transition: opacity .5s ease;
+	-o-tranition: opacity .5s ease;
+	transition: opacity .5s ease;
+	-moz-transition: opacity .5s ease;
+}
+
+#gh, #gh:hover, #fb, #fb:hover, #lnkdn, #lnkdn:hover {
+	-webkit-transition: background-image .3s ease;
+	-o-tranition: background-image .3s ease;
+	transition: background-image .3s ease;	
+	-moz-transition: background-image .3s ease;
 }
