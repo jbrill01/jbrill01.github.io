@@ -5,17 +5,12 @@
 }
 
 /*General Things*/
-html, body {
+body {
 	font-family: lintel;
 	background: #FDF3E7;
 	text-align: center;
 	text-decoration: none;
 	color: #3B3738;
-	width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
 }
 
 h1 {
