@@ -33,8 +33,7 @@ nav {
 	text-align: center;
 	background-color: #3B3738;
 	background-size: cover;
-	margin-top: 70px;
-	padding-top: 100px;
+	margin-top: 7%;
 	color: #FDF3E7;
 }
 
@@ -44,7 +43,11 @@ nav {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 0px;
+	padding-top: 0%;
+}
+
+.row1 {
+	padding-top: 12%;
 }
 
 .navbar-brand:hover {
@@ -57,12 +60,12 @@ nav {
 
 /*IDs*/
 #JBrillz, #Portfolio {
-	padding-top: 125px;
-	padding-bottom: 125px;
+	padding-top: 12%;
+	padding-bottom: 12%;
 }
 
 #to-top {
-	margin-top: -70px;
+	margin-top: -7%;
 }
 
 #lnkdn {

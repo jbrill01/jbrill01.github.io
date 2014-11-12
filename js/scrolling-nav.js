@@ -31,3 +31,20 @@ $(document).ready(function() {
     }
   );
 });
+
+    $(document).ready(function() {
+   var windowHeight = $(window).height();
+   var $imageWrapper = $('.resizable');
+   $imageWrapper.height( windowHeight );
+   var percentage = windowHeight / 768;
+   $(".headshot img").css("width", percentage*50+"%");
+   });
+
+// Change the div height on window resize
+$(window).resize(function() {
+   var windowHeight = $(window).height();
+   var $imageWrapper = $('.resizable');
+   $imageWrapper.height( windowHeight );
+   var percentage = windowHeight / 768;
+   $(".headshot img").css("width", percentage*50+"%");
+});
