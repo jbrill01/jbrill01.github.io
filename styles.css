@@ -5,12 +5,14 @@
 }
 
 /*General Things*/
-body {
+html, body {
 	font-family: lintel;
 	background: #FDF3E7;
 	text-align: center;
 	text-decoration: none;
 	color: #3B3738;
+	width: 100%;
+	height: auto;
 }
 
 h1 {
@@ -23,6 +25,10 @@ nav {
 }
 
 /*Classes*/
+.noOverflow {
+	overflow-x: hidden;
+}
+
 .headshot {
 	text-align: center;
 	background-color: #3B3738;
