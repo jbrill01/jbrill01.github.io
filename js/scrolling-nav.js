@@ -33,23 +33,30 @@ $(document).ready(function() {
 });
 
     $(document).ready(function() {
+   if (windowHeight > 600) {
    var windowHeight = $(window).height();
    var $imageWrapper = $('.resizable');
    $imageWrapper.height( windowHeight );
    var percentage = windowHeight / 768;
    $(".headshot img").css("width", percentage*50+"%");
    
-   var newsize = $(".headshot h1").css("font-size");
+   var newsize = $("h1").css("font-size");
    newsize = newsize.replace('px','');
    newsize = Math.floor(newsize*percentage);
    newsize = newsize+"px";
-   $(".headshot h1").css("font-size", newsize);
+   $("h1").css("font-size", newsize);
 
-   newsize = $(".headshot h2").css("font-size");
+   newsize = $("h2").css("font-size");
    newsize = newsize.replace('px','');
    newsize = Math.floor(newsize*percentage);
    newsize = newsize+"px";
-   $(".headshot h2").css("font-size", newsize);
+   $("h2").css("font-size", newsize);
+   newsize = $("h3").css("font-size");
+   newsize = newsize.replace('px','');
+   newsize = Math.floor(newsize*percentage);
+   newsize = newsize+"px";
+   $("h3").css("font-size", newsize);
+   }
    });
 
 // Change the div height on window resize
