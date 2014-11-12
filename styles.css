@@ -25,8 +25,30 @@ nav {
 }
 
 /*Classes*/
-.noOverflow {
-	overflow-x: hidden;
+
+.box {
+	height: 328px;
+	width: 328px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(images/jcc.png);
+	font-size: 100px;
+	opacity: 1;
+}
+
+.box p {
+	opacity: 0;
+	padding-top: 115px;
+	color: #FDF3E7;
+}
+
+.box:hover {
+	opacity: .5;
+	cursor: pointer;
+}
+
+.box:hover > p {
+	opacity: 1;
 }
 
 .headshot {
@@ -52,6 +74,10 @@ nav {
 
 .navbar-brand:hover {
   color: #3B3738;
+}
+
+.noOverflow {
+	overflow-x: hidden;
 }
 
 .panel-footer {
@@ -90,31 +116,6 @@ nav {
 
 #gh:hover {
 	background-image: url(images/colorgh.png);
-}
-
-.box {
-	height: 328px;
-	width: 328px;
-	margin-left: auto;
-	margin-right: auto;
-	background-image: url(images/jcc.png);
-	font-size: 100px;
-	opacity: 1;
-}
-
-.box p {
-	opacity: 0;
-	padding-top: 115px;
-	color: #FDF3E7;
-}
-
-.box:hover {
-	opacity: .5;
-	cursor: pointer;
-}
-
-.box:hover > p {
-	opacity: 1;
 }
 
 /*Transition Property*/

@@ -36,10 +36,12 @@ $(document).ready(function() {
    var windowHeight = $(window).height();
    var $imageWrapper = $('.resizable');
    $imageWrapper.height( windowHeight );
-    if (windowHeight <=768) {
    var percentage = windowHeight / 768;
+    if (windowHeight <=900) {
    $(".headshot img").css("width", percentage*50+"%");
-   
+   } if (windowHeight >=1000) {
+   $(".headshot img").css("width", percentage*25+"%");
+   }
    var newsize = $("h1").css("font-size");
    newsize = newsize.replace('px','');
    newsize = Math.floor(newsize*percentage);
@@ -56,7 +58,7 @@ $(document).ready(function() {
    newsize = Math.floor(newsize*percentage);
    newsize = newsize+"px";
    $("h3").css("font-size", newsize);
-   }
+
    });
 
 // Change the div height on window resize
@@ -64,7 +66,7 @@ $(window).resize(function() {
    var windowHeight = $(window).height();
    var $imageWrapper = $('.resizable');
    $imageWrapper.height( windowHeight );
-   if (windowHeight <=768) {
+   if (windowHeight <=900) {
    var percentage = windowHeight / 768;
    $(".headshot img").css("width", percentage*50+"%");
  }
