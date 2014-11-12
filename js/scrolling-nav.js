@@ -37,9 +37,10 @@ $(document).ready(function() {
    var windowHeight = $(window).height();
    var $imageWrapper = $('.resizable');
    $imageWrapper.height( windowHeight );
-   var percentage = windowHeight / 768;
-   $(".headshot img").css("width", percentage*50+"%");
-   
+   var windowWidth = $(window).width();
+   var percentage = windowWidth / 1200;
+   $(".headshot img").css("width", percentage*40+"%");
+
    if (windowHeight > 600) {   
    var newsize = $("h1").css("font-size");
    newsize = newsize.replace('px','');
@@ -64,7 +65,8 @@ $(document).ready(function() {
 $(window).resize(function() {
    var windowHeight = $(window).height();
    var $imageWrapper = $('.resizable');
+   var windowWidth = $(window).width();
    $imageWrapper.height( windowHeight );
-   var percentage = windowHeight / 768;
-   $(".headshot img").css("width", percentage*50+"%");
+   var percentage = windowWidth / 1200;
+   $(".headshot img").css("width", percentage*40+"%");
 });
