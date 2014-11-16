@@ -31,7 +31,6 @@ nav {
 	width: 328px;
 	margin-left: auto;
 	margin-right: auto;
-	background-image: url(images/jcc.png);
 	font-size: 100px;
 	opacity: 1;
 }
@@ -49,6 +48,14 @@ nav {
 
 .box:hover > p {
 	opacity: 1;
+}
+
+.box1 {
+	background-image: url(images/jcc.png);
+}
+
+.box2 {
+	background-image: url(images/flexcalibr.png);
 }
 
 .headshot {
@@ -72,8 +79,8 @@ nav {
 	padding-top: 12%;
 }
 
-.navbar-brand:hover {
-  color: #3B3738;
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-header:hover {
+	color: #7D1935;
 }
 
 .noOverflow {
