@@ -26,6 +26,6 @@ $(document).ready(function(){
 });
 
 $('.box1').click(function() {
-   window.location = "https://github.com/jbrill01/jcc";
+   window.location = "http://tupboard.github.io";
 });
 });
