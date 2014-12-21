@@ -57,6 +57,12 @@ $(document).ready(function() {
    newsize = newsize+"px";
    $("h3").css("font-size", newsize);
 
+   newsize = $("h4").css("font-size");
+   newsize = newsize.replace('px','');
+   newsize = Math.floor(newsize*percentage);
+   newsize = newsize+"px";
+   $("h4").css("font-size", newsize);
+
    });
 
 // Change the div height on window resize
