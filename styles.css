@@ -42,7 +42,7 @@ nav {
 }
 
 .box:hover {
-	opacity: .5;
+	opacity: .4;
 	cursor: pointer;
 }
 
@@ -56,6 +56,10 @@ nav {
 
 .box2 {
 	background-image: url(images/flexcalibr.png);
+}
+
+.box3 {
+	background-image: url(images/zbt.png);
 }
 
 .headshot {
