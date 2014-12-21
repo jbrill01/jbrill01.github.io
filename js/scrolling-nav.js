@@ -39,8 +39,6 @@ $(document).ready(function() {
    var percentage = windowHeight / 680;
     if (windowHeight <=650) {
    $(".headshot img").css("width", percentage*50+"%");
-   } if (windowHeight >=650 && windowHeight <=750) {
-   $(".headshot img").css("width", percentage*15+"%");
    }
    var newsize = $("h1").css("font-size");
    newsize = newsize.replace('px','');
@@ -69,7 +67,5 @@ $(window).resize(function() {
    if (windowHeight <=650) {
    var percentage = windowHeight / 680;
    $(".headshot img").css("width", percentage*50+"%");
- } if (windowHeight >=650 && windowHeight <=750) {
-   $(".headshot img").css("width", percentage*15+"%");
-   }
+ }
 });
