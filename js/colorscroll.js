@@ -28,4 +28,8 @@ $(document).ready(function(){
 $('.box1').click(function() {
    window.location = "http://tupboard.github.io";
 });
+
+$('.box2').click(function() {
+  window.location = "http://flexcalibr-app.herokuapp.com";
+});
 });
