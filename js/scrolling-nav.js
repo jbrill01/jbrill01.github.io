@@ -40,7 +40,7 @@ $(document).ready(function() {
     if (windowHeight <=900) {
    $(".headshot img").css("width", percentage*50+"%");
    } if (windowHeight >=1000) {
-   $(".headshot img").css("width", percentage*25+"%");
+   $(".headshot img").css("width", percentage*15+"%");
    }
    var newsize = $("h1").css("font-size");
    newsize = newsize.replace('px','');
@@ -69,5 +69,7 @@ $(window).resize(function() {
    if (windowHeight <=900) {
    var percentage = windowHeight / 768;
    $(".headshot img").css("width", percentage*50+"%");
- }
+ } if (windowHeight >=1000) {
+   $(".headshot img").css("width", percentage*15+"%");
+   }
 });
