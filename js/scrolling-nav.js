@@ -69,7 +69,7 @@ $(window).resize(function() {
    if (windowHeight <=900) {
    var percentage = windowHeight / 768;
    $(".headshot img").css("width", percentage*50+"%");
- } if (windowHeight >=1000) {
+ } if (windowHeight >=1000 && windowHeight <=1500) {
    $(".headshot img").css("width", percentage*15+"%");
    }
 });
