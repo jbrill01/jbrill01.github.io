@@ -32,4 +32,9 @@ $('.box1').click(function() {
 $('.box2').click(function() {
   window.location = "http://flexcalibr-app.herokuapp.com";
 });
+
+$('.box3').click(function() {
+  window.location = "http://zbtomicron.com";
+});
+
 });
