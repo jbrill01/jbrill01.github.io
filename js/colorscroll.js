@@ -1,4 +1,6 @@
 $(document).ready(function(){
+  $(".nav-one").css("color","#FDF3E7");
+  $(".nav-two").css("color","#FDF3E7");
 
 	$(window).scroll(function() {
 
@@ -13,11 +15,9 @@ $(document).ready(function(){
        $(".nav-one").css("color","#FDF3E7");
    }
 
-   var hT = $('#Portfolio').offset().top,
-       hH = $('#Portfolio').height(),
-       wH = $(window).height(),
+   var hT = $('#Portfolio').offset().top-10,
        wS = $(this).scrollTop();
-   if (wS > (hT+hH-wH)){
+   if (wS > hT){
        $(".nav-one").css("color","#FDF3E7");   	
        $(".nav-two").css("color","#7D1935");
    } else {

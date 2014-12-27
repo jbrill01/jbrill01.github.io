@@ -25,7 +25,6 @@ nav {
 }
 
 /*Classes*/
-
 .box {
 	height: 328px;
 	width: 328px;
@@ -83,7 +82,20 @@ nav {
 	padding-top: 12%;
 }
 
-.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-header:hover {
+.red {
+	background: #C63D0F;
+	border-bottom: none;
+}
+
+.brand {
+	font-size: 35px;
+}
+
+.yellow {
+	color: #FDF3E7;
+}
+
+.navbar li:hover, .hover:hover {
 	color: #7D1935;
 }
 
