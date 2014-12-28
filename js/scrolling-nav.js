@@ -1,4 +1,4 @@
-//jQuery to collapse the navbar on scroll
+// Collapse Bootstrap Navbar on Scroll
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
@@ -7,7 +7,7 @@ $(window).scroll(function() {
     }
 });
 
-//jQuery for page scrolling feature - requires jQuery Easing plugin
+//Easy Scrolling on Click
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
@@ -16,11 +16,6 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
-});
-
-//jQuery for caption pop-ups
-$(document).ready(function() {
-      $('.caption').slideUp(250);
 });
 
 $(document).ready(function() {
@@ -32,7 +27,8 @@ $(document).ready(function() {
   );
 });
 
-    $(document).ready(function() {
+// Resizing Function
+$(document).ready(function() {
    var windowHeight = $(window).height();
    var $imageWrapper = $('.resizable');
    $imageWrapper.height( windowHeight );
@@ -63,7 +59,7 @@ $(document).ready(function() {
    newsize = newsize+"px";
    $("h4").css("font-size", newsize);
 
-   });
+});
 
 // Change the div height on window resize
 $(window).resize(function() {
