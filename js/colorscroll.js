@@ -2,7 +2,6 @@ $(document).ready(function(){
   // Initialized colors
   $(".nav-one").css("color","#FDF3E7");
   $(".nav-two").css("color","#FDF3E7");
-});
 
 // Colorful scrolling
 $(window).scroll(function() {
@@ -37,4 +36,5 @@ $('.box2').click(function() {
 
 $('.box3').click(function() {
   window.location = "http://zbtomicron.com";
+});
 });
