@@ -35,6 +35,6 @@ $('.box2').click(function() {
 });
 
 $('.box3').click(function() {
-  window.location = "http://zbtomicron.com";
+  window.location = "http://zbtomicron.github.io";
 });
 });
