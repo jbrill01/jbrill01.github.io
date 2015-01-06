@@ -61,11 +61,14 @@ nav {
 	background-image: url(images/zbt.png);
 }
 
+.brand {
+	font-size: 30px;
+}
+
 .headshot {
 	text-align: center;
 	background-color: #3B3738;
 	background-size: cover;
-	margin-top: 7%;
 	color: #FDF3E7;
 }
 
@@ -75,28 +78,32 @@ nav {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 0%;
 }
 
 .row1 {
 	padding-top: 12%;
 }
 
-.red {
+.page-scroll {
+	color: blue;
+}
+
+.navbar {
 	background: #C63D0F;
 	border-bottom: none;
 }
 
-.brand {
-	font-size: 35px;
+a {
+	color: #FDF3E7 !important;
 }
 
-.yellow {
-	color: #FDF3E7;
+a:hover {
+	color: #7D1935 !important;
 }
 
-.navbar li:hover, .hover:hover {
-	color: #7D1935;
+.nav > .active > a {
+	color: #7D1935 !important;
+    background-color: #FDF3E7 !important;
 }
 
 .noOverflow {
@@ -111,10 +118,6 @@ nav {
 #JBrillz, #Portfolio {
 	padding-top: 12%;
 	padding-bottom: 12%;
-}
-
-#to-top {
-	margin-top: -7%;
 }
 
 #lnkdn {

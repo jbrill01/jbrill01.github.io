@@ -67,3 +67,27 @@ $(window).resize(function() {
    var $imageWrapper = $('.resizable');
    $imageWrapper.height( windowHeight );
 });
+
+
+// Hyperlinks
+$(document).ready(function() {
+  $('.box1').click(function() {
+     window.location = "http://tupboard.github.io";
+  });
+
+  $('.box2').click(function() {
+    window.location = "http://flexcalibr-app.herokuapp.com";
+  });
+
+  $('.box3').click(function() {
+    window.location = "http://zbtomicron.github.io";
+  });
+
+    $('.brand').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: 0
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+});
