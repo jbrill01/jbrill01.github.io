@@ -1,12 +1,6 @@
-/*Fonts*/
-@font-face {
-	font-family: lintel;
-	src: url('fonts/lintel.otf');
-}
-
 /*General Things*/
 html, body {
-	font-family: lintel;
+	font-family: 'Abel';
 	background: #FDF3E7;
 	text-align: center;
 	text-decoration: none;
@@ -22,6 +16,14 @@ h1 {
 
 nav {
 	font-size: 20px;
+}
+
+a {
+	color: #FDF3E7 !important;
+}
+
+a:hover {
+	color: #7D1935 !important;
 }
 
 /*Classes*/
@@ -91,14 +93,6 @@ nav {
 .navbar {
 	background: #C63D0F;
 	border-bottom: none;
-}
-
-a {
-	color: #FDF3E7 !important;
-}
-
-a:hover {
-	color: #7D1935 !important;
 }
 
 .nav > .active > a {
